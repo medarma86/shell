@@ -1,0 +1,8 @@
+<!-- Show host shell only if showHostShell is true -->
+<div *ngIf="showHostShell" class="shell-content">
+  <h1>Welcome to Employer Portal</h1>
+  <p>Welcome to the host portal!</p>
+</div>
+
+<!-- Render the router outlet only if there is content to show -->
+<router-outlet *ngIf="showRouterOutlet"></router-outlet>

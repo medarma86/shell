@@ -1,0 +1,52 @@
+.shell-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  min-height: 80vh;
+  background: #f5f0ff; /* very light purple background */
+  color: #4b0082; /* deep purple text */
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6a0dad; /* Royal purple button */
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #7b1fa2;
+    }
+  }
+}
+
+/* Optional: responsive adjustments */
+@media (max-width: 768px) {
+  .shell-content {
+    padding: 2rem 1rem;
+
+    h1 {
+      font-size: 2.25rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
